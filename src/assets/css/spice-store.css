@@ -1,0 +1,87 @@
+a:hover,
+a:focus {
+  color: #f35a0e !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Damion", cursive;
+}
+
+header.site-header .header-nav {
+  background: #fff;
+}
+
+.mega-menu .menu-links > li > a {
+  color: #323232;
+}
+
+.header-style-logo-center .header-search-wrap .search-button-wrap .search-button:hover {
+  color: #f35a0e;
+}
+
+header.site-header .ciya-tools-cart .cart-link .count,
+header.site-header .ciya-tools-cart a .count,
+header.site-header .ciya-tools-wishlist a .ciyashop-wishlist-count {
+  background: #f35a0e;
+}
+
+footer.site-footer {
+  background: #f5f5f5;
+  color: #323232;
+}
+
+footer.site-footer .footer-title {
+  font-size: 24px;
+}
+
+footer.site-footer .widget ul li a {
+  color: #323232;
+}
+
+footer.site-footer .widget ul li:hover a {
+  color: #f35a0e;
+}
+
+footer.site-footer .site-info {
+  background: #fff;
+}
+
+footer.site-footer .site-info .footer-widget p,
+footer.site-footer .site-info .footer-widget p a {
+  color: #323232;
+}
+
+footer.site-footer .pgs-opening-widget .pgs-opening-hours ul li {
+  color: #323232;
+}
+
+footer.site-footer .pgs-opening-widget .pgs-opening-hours ul li i,
+footer.site-footer .pgs-contact-widget ul li i {
+  color: #f35a0e;
+}
+
+footer.site-footer .pgs-newsletter-widget .newsletter_form .button-area .input-group-btn > .btn {
+  background: #f35a0e;
+}
+
+footer.site-footer .pgs-newsletter-widget .newsletter_form .newsletter-email:focus {
+  border-color: #f35a0e;
+}
+
+footer.site-footer .pgs-social-profiles .social-profiles ul li a:hover i {
+  background-color: #f35a0e;
+  border-color: #f35a0e;
+}
+
+footer.site-footer .pgs-social-profiles .social-profiles ul li a i {
+  color: #323232;
+}
+
+#primary-menu i.hot-label {
+  background: #f35a0e;
+}
