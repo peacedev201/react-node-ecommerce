@@ -54,9 +54,8 @@ class AboutBanner3 extends Component {
                 <Col sm={12} lg={5} className="mt-4 mt-md-5 mt-lg-0">
                 <div className="section-title mb-4">
                     <span className="banner-title">Know More</span>
-                    <h2 className="title text-left"> About CiyaShop</h2>
-                    <p className="mb-0 mb-md-2">We are CiyaShop ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veni quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat.</p>
+                    <h2 className="title text-left"> About Qapkart</h2>
+                    <p className="mb-0 mb-md-2">We are Qapkart ...(please insert description)</p>
                     { expandedDiv }
                 </div>
                 <div className="ciyashop_button_wrapper ciyashop_button_width_default ">

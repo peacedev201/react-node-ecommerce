@@ -4126,6 +4126,7 @@ header.site-header.is-sticky .mega-menu .menu-links > li .drop-down.grid-col-12 
     Header-style-menu-center
 ********************************/
 .header-style-menu-center .container-fluid {
+  background: aquamarine;
   padding-left: 35px;
   padding-right: 35px;
 }

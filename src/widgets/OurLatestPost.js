@@ -30,7 +30,7 @@ function OurLatestPost(props) {
                                     <ul>
                                     <li>
                                         <i className="fa fa-user" />
-                                        <Link to="#" rel="category tag">ciyashop</Link>
+                                        <Link to="#" rel="category tag">qapkart</Link>
                                     </li>
                                     <li>
                                         <i className="fa fa-folder-open" />
@@ -96,7 +96,7 @@ function OurLatestPost(props) {
                                     <ul>
                                     <li>
                                         <i className="fa fa-user" />
-                                        <Link to="#" rel="category tag">ciyashop</Link>
+                                        <Link to="#" rel="category tag">qapkart</Link>
                                     </li>
                                     <li>
                                         <i className="fa fa-folder-open" />
@@ -162,7 +162,7 @@ function OurLatestPost(props) {
                                     <ul>
                                     <li>
                                         <i className="fa fa-user" />
-                                        <Link to="#" rel="category tag">ciyashop</Link>
+                                        <Link to="#" rel="category tag">qapkart</Link>
                                     </li>
                                     <li>
                                         <i className="fa fa-folder-open" />
@@ -228,7 +228,7 @@ function OurLatestPost(props) {
                                     <ul>
                                     <li>
                                         <i className="fa fa-user" />
-                                        <Link to="#" rel="category tag">ciyashop</Link>
+                                        <Link to="#" rel="category tag">qapkart</Link>
                                     </li>
                                     <li>
                                         <i className="fa fa-folder-open" />

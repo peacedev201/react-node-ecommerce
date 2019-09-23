@@ -191,10 +191,10 @@ class Header extends React.Component {
                                                 <ul>
 
                                                     <li className="topbar_item topbar_item_type-email">
-                                                        <Link to="#"><i className="fa fa-envelope-o">&nbsp;</i>support@ciyashop.com</Link>
+                                                        <Link to="#"><i className="fa fa-envelope-o">&nbsp;</i>support@qapkart.com</Link>
                                                     </li>
                                                     <li className="topbar_item topbar_item_type-phone_number">
-                                                        <Link to="#"><i className="fa fa-phone">&nbsp;</i>126-632-2345</Link>
+                                                        <Link to="#"><i className="fa fa-phone">&nbsp;</i>123-456-7890</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -262,7 +262,7 @@ class Header extends React.Component {
                                             <Col xl={2} lg={2} className="col-6">
                                                 <div className="logo-wrapper">
                                                     <Link to="/">
-                                                        <img className="img-fluid" src={logo} alt="logo" />
+                                                        <img className="img-fluid" src={require(`../../assets/images/logo.png`)} alt="logo" />
                                                     </Link>
                                                 </div>
                                                 <div className="clearfix" />

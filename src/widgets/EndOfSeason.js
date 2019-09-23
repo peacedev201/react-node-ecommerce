@@ -33,9 +33,9 @@ class EndOfSeason extends Component {
             </Col>
             <Col md={4} lg={3} className="mb-5 pb-1">
             <div className="single_image-wrapper">
-                <img src={require(`../assets/images/categories/default/season-img1.jpg`)} className="img-fluid attachment-full" alt="season-img1" />
+                <img src={require(`../assets/images/categories/default/Book1.png`)} className="img-fluid attachment-full" alt="season-img1" />
             </div>
-            <Row className="single_image-content">
+            {/* <Row className="single_image-content">
                 <Col sm={3} className="col-2 px-0">
                 <div className="border-space border-space-light" />
                 </Col>
@@ -44,13 +44,13 @@ class EndOfSeason extends Component {
                     <p>Women’s</p>
                 </div>
                 </Col>
-            </Row>
+            </Row> */}
             </Col>
             <Col md={4} lg={3} className="mb-5 mt-4 mt-md-0">
             <div className="single_image-wrapper">
-                <img src={require(`../assets/images/categories/default/season-img2.jpg`)} className="img-fluid attachment-full" alt="season-img2" />
+                <img src={require(`../assets/images/categories/default/Book2.png`)} className="img-fluid attachment-full" alt="season-img2" />
             </div>
-            <Row className="single_image-content">
+            {/* <Row className="single_image-content">
                 <Col sm={3} className="col-2 px-0">
                 <div className="border-space border-space-dark" />
                 </Col>
@@ -59,13 +59,13 @@ class EndOfSeason extends Component {
                     <p className="text-dark">Kids</p>
                 </div>
                 </Col>
-            </Row>
+            </Row> */}
             </Col>
             <Col sm={12} md={4} lg={3} className="mb-5 mt-4 mt-md-0 pt-1 pt-md-0">
             <div className="single_image-wrapper">
-                <img src={require(`../assets/images/categories/default/banner-video-bg.png`)} className="img-fluid attachment-full" alt="season-img2" />
+                <img src={require(`../assets/images/categories/default/Book3.png`)} className="img-fluid attachment-full" alt="season-img2" />
             </div>
-            <Row className="single_image-content">
+            {/* <Row className="single_image-content">
                 <Col sm={3} className="col-2 px-0">
                 <div className="border-space border-space-dark" />
                 </Col>
@@ -74,7 +74,7 @@ class EndOfSeason extends Component {
                     <p className="text-dark">Men</p>
                 </div>
                 </Col>
-            </Row>
+            </Row> */}
             </Col>
         </Row>
 

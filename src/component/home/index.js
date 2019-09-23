@@ -107,7 +107,7 @@ class HomePage extends Component {
                                        </Col>
                                     </div>
                                  </Container>
-                                 <div class="content-wrapper overflow-hidden">
+                                 {/* <div class="content-wrapper overflow-hidden">
                                     <div class="container-fluid p-0">
                                           <div class="row">
                                              <div class="col-sm-12">
@@ -117,7 +117,7 @@ class HomePage extends Component {
                                              </div>
                                           </div>
                                     </div>
-                                 </div>
+                                 </div> */}
                               </div>
                        </article>
                      </main>
