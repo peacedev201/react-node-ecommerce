@@ -60,65 +60,65 @@ class HomePage extends Component {
                   <main id="main" className="site-main">
                      <article id="post-13069" className="post-13069 page type-page status-publish hentry">
                         <div className="entry-content">
+                        <Container>
+                              <Row className="mb-0 mb-sm-3 mb-lg-5">
+                                 <Col sm={12}>
+                                    <Row mb={3} className="justify-content-center">
+                                    <Col sm={10} lg={6} className="text-center">
+                                       <div className="section-title">
+                                          <h2 className="title"> Top Selling Products</h2>
+                                          <p>Forget about struggling to do everything at once: taking care of the family, Running your business etc.</p>
+                                       </div>
+                                       </Col>
+                                    </Row>
+                                    <TopSellingProduct />
+                                 </Col>
+                              </Row>
+                        </Container>
                            <Container>
                                  <EndOfSeason />
                            </Container>
                            <Container>
-                                    <Row className="mb-0 mb-sm-3 mb-lg-5">
-                                       <Col sm={12}>
-                                          <Row mb={3} className="justify-content-center">
-                                          <Col sm={10} lg={6} className="text-center">
+                              <HomeBanner />
+                           </Container>
+                           <div className="container-fluid section-2">
+                              <DealOfTheWeek />
+                           </div>
+                           {/* <div className="container section-3">
+                              <AboutBanner />
+                           </div> */}
+                           {/* <Container>
+                              <Subscribe />
+                           </Container> */}
+                           {/* <Container>
+                                 <div className="row section-ptb">
+                                    <Col sm={12}>
+                                       <div className="row text-center">
+                                          <div className="col-sm-12 offset-lg-2 col-lg-8 offset-md-1 col-md-9">
                                              <div className="section-title">
-                                                <h2 className="title"> Top Selling Products</h2>
-                                                <p>Forget about struggling to do everything at once: taking care of the family, Running your business etc.</p>
+                                                <h2 className="title"> Our Latest Post</h2>
+                                                <p>Read what we say on our blog. you do not have to worry about getting stuck alone trying to figure everything out.</p>
                                              </div>
-                                           </Col>
+                                          </div>
+                                       </div>
+                                       <Row>
+                                          <OurLatestPost settings={latestblogslider}  />
                                           </Row>
-                                          <TopSellingProduct />
-                                       </Col>
-                                    </Row>
-                              </Container>
-                              <Container>
-                                 <HomeBanner />
-                              </Container>
-                              <div className="container-fluid section-2">
-                                 <DealOfTheWeek />
-                              </div>
-                              <div className="container section-3">
-                                 <AboutBanner />
-                              </div>
-                              <Container>
-                                 <Subscribe />
-                              </Container>
-                              <Container>
-                                    <div className="row section-ptb">
-                                       <Col sm={12}>
-                                          <div className="row text-center">
-                                             <div className="col-sm-12 offset-lg-2 col-lg-8 offset-md-1 col-md-9">
-                                                <div className="section-title">
-                                                   <h2 className="title"> Our Latest Post</h2>
-                                                   <p>Read what we say on our blog. you do not have to worry about getting stuck alone trying to figure everything out.</p>
-                                                </div>
+                                    </Col>
+                                 </div>
+                              </Container> */}
+                              {/* <div class="content-wrapper overflow-hidden">
+                                 <div class="container-fluid p-0">
+                                       <div class="row">
+                                          <div class="col-sm-12">
+                                             <div class="instafeed insta-feeds">
+                                                      <Instagram />
                                              </div>
                                           </div>
-                                          <Row>
-                                             <OurLatestPost settings={latestblogslider}  />
-                                           </Row>
-                                       </Col>
-                                    </div>
-                                 </Container>
-                                 {/* <div class="content-wrapper overflow-hidden">
-                                    <div class="container-fluid p-0">
-                                          <div class="row">
-                                             <div class="col-sm-12">
-                                                <div class="instafeed insta-feeds">
-                                                         <Instagram />
-                                                </div>
-                                             </div>
-                                          </div>
-                                    </div>
-                                 </div> */}
-                              </div>
+                                       </div>
+                                 </div>
+                              </div> */}
+                           </div>
                        </article>
                      </main>
                   </div>
