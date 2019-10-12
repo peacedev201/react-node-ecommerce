@@ -14,3 +14,4 @@ import 'font-awesome/css/font-awesome.min.css';
 import 'react-rangeslider/lib/index.css'
 import "../node_modules/react-table/react-table.css";
 import './assets/css/responsive.css';
+import 'react-notifications-component/dist/theme.css'

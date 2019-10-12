@@ -4126,7 +4126,6 @@ header.site-header.is-sticky .mega-menu .menu-links > li .drop-down.grid-col-12 
     Header-style-menu-center
 ********************************/
 .header-style-menu-center .container-fluid {
-  background: aquamarine;
   padding-left: 35px;
   padding-right: 35px;
 }
@@ -17658,7 +17657,7 @@ ul.products .product-inner .product-info .stock {
   z-index: 1;
   left: 0;
   right: 0;
-  top: 50%;
+  top: 42%;
   transform: translateY(-50%);
 }
 

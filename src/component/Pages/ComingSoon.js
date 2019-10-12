@@ -2,7 +2,6 @@
  *  CommingSoon Page
  */
 import React, { Component } from 'react';
-import pyamentimg from '../../assets/images/payments.png';
 import { Link } from 'react-router-dom';
 import { Row, Col,Container } from 'reactstrap';
 import CommingSoonCounter from '../../widgets/CommingSoonCounter';
@@ -22,7 +21,7 @@ class ComingSoon extends Component {
 
     render() {
         return (
-            <body>
+            <div>
                 <div className="coming-soon">
                     <div className="site-content">
                         <div className="content-wrapper">
@@ -51,7 +50,7 @@ class ComingSoon extends Component {
                         </div>
                     </div>
                 </div>
-            </body>
+            </div>
         )
     }
 }

@@ -1,218 +1,171 @@
-/**
- *  Footer Main
- */
 import React from 'react';
-import { Row, Col,Container } from 'reactstrap';
+import { Row, Col, Container } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-class Footer extends React.Component {
+import './footer.css';
 
-    constructor(props)
-    {
+class Footer extends React.Component {
+    constructor(props) {
         super(props);
     }
-    componentDidMount()
-    {
-        window.addEventListener('scroll',this.Checkscroll);
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.Checkscroll);
     }
-    componentWillUnmount()
-    {
-        window.removeEventListener('scroll',this.Checkscroll);
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.Checkscroll);
     }
 
-    Checkscroll()
-    {
+    Checkscroll() {
 
         var scrollTop = (document.documentElement && document.documentElement.scrollTop) ||
-        document.body.scrollTop;
+            document.body.scrollTop;
 
-        if(scrollTop > 350)
-        {
-            if(document.getElementById("back-to-top") != null)
-            {
-                document.getElementById("back-to-top").setAttribute("style","display:block");
+        if (scrollTop > 350) {
+            if (document.getElementById("back-to-top") != null) {
+                document.getElementById("back-to-top").setAttribute("style", "display:block");
             }
         }
-        else
-        {
+        else {
 
-            if(document.getElementById("back-to-top") != null)
-            {
-                document.getElementById("back-to-top").setAttribute("style","display:none");
+            if (document.getElementById("back-to-top") != null) {
+                document.getElementById("back-to-top").setAttribute("style", "display:none");
             }
         }
 
     }
-    ClicktoTop()
-    {
-        window.scroll({top: 0, left: 0, behavior: 'smooth' })
+    ClicktoTop() {
+        window.scroll({ top: 0, left: 0, behavior: 'smooth' })
     }
     render() {
-        let backtotop = {display : 'none'}
+        let backtotop = { display: 'none' }
         return (
-        <div>
+            <div>
                 <footer className="site-footer">
-                <div className="footer-wrapper">
-                    <div className="footer-widgets-wrapper">
-                    <div className="footer">
-                        <Container>
-                        <Row>
-                            <div className="col-lg-3 col-md-6 footer-align-left">
-                            <div className="logo-wrapper widget">
-                                <p><Link to="#">
-                                    <img className="img-fluid"  src={require(`../../assets/images/logo.png`)}   alt="logo" />
-                                </Link></p>
-                            </div>
-                            <div className="text-content">
-                                <p className="mb-3 mt-4">CiyaShop is an enchanting and easy to use e-Commerce WP theme that allows you to sell your products in a dynamic way.</p>
-                                <p className="mb-4">The theme is packed with everything you need to create a new website.</p>
-                            </div>
-                            <div className="pgs-social-profiles mt-4">
-                                <div className="social-profiles-wrapper">
-                                <div className="social-profiles-wrapper-inner social-profiles-default social-profiles-shape-square">
-                                    <div className="social-profiles">
-                                    <ul>
-                                        <li><a href="https://www.facebook.com" title="Facebook" target="_blank"><i className="fa fa-facebook" /></a></li>
-                                        <li><a href="https://twitter.com" title="Twitter" target="_blank"><i className="fa fa-twitter" /></a></li>
-                                        <li><a href="https://google.com/" title="Google" target="_blank"><i className="fa fa-google" /></a></li>
-                                        <li><a href="https://vimeo.com/" title="Vimeo" target="_blank" ><i className="fa fa-vimeo" /></a></li>
-                                        <li><a href="https://in.pinterest.com/" title="Pinterest" target="_blank" ><i className="fa fa-pinterest" /></a></li>
-                                    </ul>
-                                    </div>
+                    <div className="footer-wrapper">
+                        <div className="footer-widgets-wrapper">
+                            <div className="footer">
+                                <div className="footer-container">
+                                    <Row>
+                                        <div className="col-lg-3 col-md-6 footer-align-left">
+                                            <div className="logo-wrapper widget">
+                                                <p><Link to="#">
+                                                    <img className="img-fluid" src={require(`../../assets/images/image/Logo-Footer.png`)} alt="logo" />
+                                                </Link></p>
+                                            </div>
+                                            <div className="text-content">
+                                                <p className="mb-3 mt-4 footer-content-left-txt font-italic">
+                                                    <span>
+                                                        <img src={require(`../../assets/images/image/Money-icon-01.png`)} />
+                                                    </span>&nbsp;&nbsp;
+                                                    Money Back Quarantee
+                                                </p>
+                                                <p className="mb-3 mt-4 footer-content-left-txt font-italic">
+                                                    <span>
+                                                        <img src={require(`../../assets/images/image/Easy-Return-01.png`)} />
+                                                    </span>&nbsp;&nbsp;
+                                                    Easy Return
+                                                </p>
+                                                <p className="mb-3 mt-4 footer-content-left-txt font-italic">
+                                                    <span>
+                                                        <img src={require(`../../assets/images/image/24x7-Support-icon-01.png`)} />
+                                                    </span>&nbsp;&nbsp;
+                                                    24/7 Support
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-2 col-md-6 footer-align-left">
+                                            <div className="footer-nav-menu widget">
+                                                <p className="footer-text-title title font-italic">QUICK LINKS</p>
+                                                <div className="menu-useful-links-container">
+                                                    <p className="menu-item font-italic"><Link to="/aboutus" className="footer-link">About Us</Link></p>
+                                                    <p className="menu-item font-italic"><Link to="/shop" className="footer-link">Stories</Link></p>
+                                                    <p className="menu-item font-italic"><Link to="/shop" className="footer-link">Career</Link></p>
+                                                    <p className="menu-item font-italic"><Link to="/Contactus" className="footer-link">Contact Us</Link></p>
+                                                    <p className="menu-item font-italic"><Link to="#" className="footer-link">Sell on Qapkart</Link></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-2 col-md-6 footer-align-left">
+                                            <div className="footer-nav-menu widget mt-4 mt-lg-0">
+                                                <p className="footer-text-title title font-italic">HELP</p>
+                                                <div className="menu-useful-links-container">
+                                                    <p className="menu-item font-italic"><Link to="/aboutus" className="footer-link">FAQ</Link></p>
+                                                    <p className="menu-item font-italic"><Link to="/shop" className="footer-link">Payments</Link></p>
+                                                    <p className="menu-item font-italic"><Link to="/shop" className="footer-link">Shipping</Link></p>
+                                                    <p className="menu-item font-italic"><Link to="/Contactus" className="footer-link">Cancellation and Returns</Link></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-2 col-md-6 footer-align-left">
+                                            <div className="footer-nav-menu widget mt-4 mt-lg-0">
+                                                <p className="footer-text-title title font-italic">TERMS</p>
+                                                <div className="menu-useful-links-container">
+                                                    <p className="menu-item font-italic"><Link to="/aboutus" className="footer-link">Return Policy</Link></p>
+                                                    <p className="menu-item font-italic"><Link to="/shop" className="footer-link">Terms of Use</Link></p>
+                                                    <p className="menu-item font-italic"><Link to="/shop" className="footer-link">Security</Link></p>
+                                                    <p className="menu-item font-italic"><Link to="/Contactus" className="footer-link">Privacy</Link></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-2 col-md-6 footer-align-left">
+                                            <div className="footer-nav-menu widget mt-4 mt-lg-0">
+                                                <p className="footer-text-title title font-italic">MAIL US</p>
+                                                <div className="menu-useful-links-container">
+                                                    <p className="menu-item font-italic">123, Streetname, Address Line1, Address Line 2,<br /> City - 095400</p>
+                                                </div>
+                                                <p className="footer-text-title title font-italic">FOLLOW US</p>
+                                                <p className="mb-3 mt-4 contact-support">
+                                                    <span className="follow-span">
+                                                        <Link to="#">
+                                                            <img src={require(`../../assets/images/image/FB.png`)} />
+                                                        </Link>
+                                                    </span>
+                                                    <span className="follow-span">
+                                                        <Link to="#">
+                                                            <img src={require(`../../assets/images/image/Twitter.png`)} />
+                                                        </Link>
+                                                    </span>
+                                                    <span className="follow-span">
+                                                        <Link to="#">
+                                                            <img src={require(`../../assets/images/image/Instagram.png`)} />
+                                                        </Link>
+                                                    </span>
+                                                    <span className="follow-span">
+                                                        <Link to="#">
+                                                            <img src={require(`../../assets/images/image/Google+.png`)} />
+                                                        </Link>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </Row>
                                 </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 footer-align-left">
-                            <div className="footer-nav-menu widget">
-                                <h4 className="footer-title title">Useful Links</h4>
-                                <div className="menu-useful-links-container">
-                                <ul className="menu">
-                                    <li className="menu-item active"><Link to="/">Home</Link></li>
-                                    <li className="menu-item"><Link to="/aboutus">About Us</Link></li>
-                                    <li className="menu-item"><Link to="/shop">Shop</Link></li>
-                                    <li className="menu-item"><Link to="/Contactus">Contact Us</Link></li>
-                                    <li className="menu-item"><Link to="#">Privacy Policy</Link></li>
-                                    <li className="menu-item"><Link to="#">Terms Conditions</Link></li>
-                                </ul>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 footer-align-left">
-                            <div className="footer-nav-menu widget mt-4 mt-lg-0">
-                                <h4 className="footer-title title">Information</h4>
-                                <div className="menu-useful-links-container">
-                                <ul className="menu">
-                                    <li className="menu-item active"><Link to="#">Look Book</Link></li>
-                                    <li className="menu-item"><Link to="#">Information</Link></li>
-                                    <li className="menu-item"><Link to="#">Instagram Wall</Link></li>
-                                    <li className="menu-item"><Link to="#">Typography</Link></li>
-                                    <li className="menu-item"><Link to="#">Parallax Presentation</Link></li>
-                                    <li className="menu-item"><Link to="#">Modern Process</Link></li>
-                                    <li className="menu-item"><Link to="#">Warranty and Services</Link></li>
-                                </ul>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 footer-align-left">
-                            <div className="pgs-contact-widget widget mt-4 mt-lg-0">
-                                <h4 className="footer-title title">Contact Info</h4>
-                                <div className="footer-address">
-                                <ul>
-                                    <li><i className="fa fa-map-marker" /><span>Adress</span></li>
-                                    <li className="pgs-contact-email"><i className="fa fa-envelope-o" /><span>support@qapkart.com</span></li>
-                                    <li><i className="fa fa-phone" /><span>123-456-7890</span></li>
-                                </ul>
-                                </div>
-                            </div>
-                            <div className="widget pgs-newsletter-widget">
-                                <h4 className="footer-title title">Newsletter</h4>
-                                <div className="newsletter">
-                                <div className="section-field">
-                                    <form className="newsletter_form">
-                                    <div className="input-area">
-                                        <input type="text" className="placeholder newsletter-email" name="newsletter_email" placeholder="Enter your email" />
-                                    </div>
-                                    <div className="button-area">
-                                        <span className="input-group-btn">
-                                        <button className="btn btn-icon newsletter-mailchimp submit" type="button">Subscribe</button>
-                                        </span>
-                                        <span className="newsletter-spinner spinimg-pgs_newsletter_widget_2" />
-                                    </div>
-                                    </form>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </Row>
-                        </Container>
-                    </div>
-                    </div>
-                    {/* <div className="footer-bottom-wrapper">
-                    <Container>
-                        <Row>
-                        <div className="col-12">
-                            <div className="footer-bottom">
-                            <Row className="align-items-center">
-                                <Col lg={6}>
-                                <Row>
-                                    <div className="col-12">
-                                    <div className="footer-content">
-                                        CiyaShop Mobile app is Available now. Download it now on your favorite device and indulge in a seamless shopping experience.
-                                    </div>
-                                    </div>
-                                </Row>
-                                </Col>
-                                <Col lg={6}>
-                                <div className="app-group row text-lg-right">
-                                    <Col md={4}>
-                                    <div className="app-img">
-                                        <img src={require(`../../assets/images/appbtntext.png`)} className="img-fluid" alt />
-                                    </div>
-                                    </Col>
-                                    <Col md={8}>
-                                    <Link to="#" className="apps-store-img">
-                                        <img src={require(`../../assets/images/google-play-img.png`)} className="img-fluid" alt />
-                                    </Link>
-                                    <Link to="#" className="apps-store-img">
-                                        <img src={require(`../../assets/images/appstorebtn.png`)} className="img-fluid" alt />
-                                    </Link>
-                                    </Col>
-                                </div>
-                                </Col>
-                            </Row>
                             </div>
                         </div>
-                        </Row>
-                    </Container>
-                    </div> */}
-                    <div className="site-info">
-                    <div className="footer-widget">
-                        <Container>
-                        <div className="row align-items-center">
-                            <Col md={6} className="float-left">
-                                 <p> © Copyright 2019 <Link to="#">CiyaShop</Link> All Rights Reserved.</p>
-                            </Col>
-                            <Col md={6}  className="float-right">
-                                <div className="payments text-right">
-                                    <img src={require(`../../assets/images/payments.png`)} className="img-fluid" alt />
-                                </div>
-                            </Col>
+                        <div className="footer-bound">
+                            <hr className="footer-hr" />
                         </div>
-                        <div className="clearfix" />
-                    </Container>
+                        <div className="site-info">
+                            <div className="footer-widget">
+                                <div className="text-center">
+                                    <p class="footer-txt font-italic"> <Link to="#" className="footer-link">Qapkart.com</Link>, {(new Date().getFullYear())} All Rights Reserved.</p>
+                                </div>
+                                <div className="clearfix" />
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                  </div>
                 </footer>
-                 {/* Back to Top */}
+
+                {/* Back to Top */}
                 <div id="back-to-top" style={backtotop} onClick={this.ClicktoTop}>
                     <Link class="top arrow">
-                            <i class="fa fa-angle-up"></i>
+                        <i class="fa fa-angle-up"></i>
                     </Link>
                 </div>
-        </div>
+            </div>
         )
     }
-};
+}
+
 export default Footer;

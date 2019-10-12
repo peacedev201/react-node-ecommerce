@@ -1,0 +1,287 @@
+.headerBar{
+    background-color: #1c75bc!important;
+    padding: 4px;
+    
+}
+.header-top{
+    width: 96%;
+    margin:auto;
+    padding-top:30px!important;
+    padding-bottom:0px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.text-center{
+    text-align: center;
+}
+.input-search{
+    border-radius: 25px;
+    width:100%;
+    height: 50px;
+    padding-left:20px;
+    padding-right:20px;
+    border-width: 0px;  
+    font-size:18px;  
+}
+.btn-user-join{
+    color:white!important;    
+}
+.menu-item{
+    font-size:26px!important;
+    padding-right:0px!important;
+}
+.top-menu{
+    font-size:26px!important;
+    color:white;
+}
+.topbar-right{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.ciya-mini-cart-item{
+    width:100%;
+}
+.div-modal{
+    background-image: url('../../assets/images/image/login.png');
+    background-size: 100%;   
+}
+.div-modal-signup{
+    background-image: url('../../assets/images/image/signup.png')!important;
+    background-size: 100%;
+}
+.modal-login-txt{
+    color:#ffde17;
+    font-weight:700;
+    font-size:48px;
+}
+.modal-login-txt-content{
+    color:white;
+    margin-top:15px;
+    font-size:20px;
+}
+.social-account{
+    width:60%;
+    margin:auto;
+    margin-top:20px;    
+}
+.form-group{
+    width:86%;
+    margin:auto;
+}
+.form-resend{
+    width:86%;
+    margin:auto;
+}
+.resend-link{
+    color:#ffde17;
+    font-size:9px;
+}
+.classical-txt-sigin{
+    margin-top:30px;
+    color:#ffde17;
+    font-size:16px;
+}
+
+.social-txt-sigin{
+    color:#ffde17;
+    font-size:16px;
+}
+.ciya-tools-actions {
+    padding: 0;
+    margin: 0;
+}
+.topbar_item_type-social_profiles{
+    padding:5px 10px!important;
+}
+header.site-header .ciya-tools-actions > li {
+    list-style-type: none;
+    display: inline-block;
+    width: 50px!important;
+    height: 38px;
+    padding: 0;
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+    
+}
+
+header.site-header .ciya-tools-cart .cart-link, header.site-header .ciya-tools-cart a, header.site-header .ciya-tools-wishlist .cart-link, header.site-header .ciya-tools-wishlist a {
+    position: relative;
+}
+.ciya-tools-actions > li .glyph-icon {
+    font-size: 26px!important;
+}
+header.site-header .ciya-tools-cart .cart-link .count, header.site-header .ciya-tools-cart .cart-link .ciyashop-wishlist-count, header.site-header .ciya-tools-cart a .count, header.site-header .ciya-tools-cart a .ciyashop-wishlist-count, header.site-header .ciya-tools-wishlist .cart-link .count, header.site-header .ciya-tools-wishlist .cart-link .ciyashop-wishlist-count, header.site-header .ciya-tools-wishlist a .count, header.site-header .ciya-tools-wishlist a .ciyashop-wishlist-count {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 11px;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: -12px;
+    margin-right: -17px;
+    color: rgb(15, 15, 15)!important;
+    background: #ffde17!important;
+    border-radius: 50%;
+}
+header.site-header .logo-wrapper {
+    padding: 5px 0px!important;
+}
+
+header.site-header .header-nav {
+    background:  #1c75bc!important;
+    width: 80%;
+    font-size:24px;
+}
+.form-input{
+    background-color: initial!important;
+    color:white!important;   
+    border-bottom: #ffffff solid 2px!important;
+    border-left-width: 0px!important;
+    border-right-width: 0px!important;
+    border-top-width: 0px!important;
+    border-radius: 0px!important;
+     
+}
+.form-input::placeholder{
+    color:white;
+}
+.btn-sign{
+    width:80%;
+    margin:auto;   
+    background-color: #ffde17!important;
+    border-radius: 40px!important;   
+}
+.new-account{
+    color:white;
+}
+.btn-signup{
+    color: #ffde17;
+    font-weight: 600;
+    
+}
+
+@media (min-width:991px){
+    .header-log{
+        display:none;
+    }
+    .header-nav-cart{
+        display:none;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 22px!important;
+        color:white!important;
+        font-style: italic!important;
+    }
+    .form-group{
+        width: 80%;
+        margin:auto;
+        margin-top:20px;
+    }
+    .form-input{
+        font-size:24px!important;
+    }    
+    .form-link-tag{
+        margin-top:50px;
+    }
+    .modal-footer-link{
+        margin-top:50px;
+    }
+    .new-account{
+        font-size:24px;
+    }
+    .btn-sign{
+        font-size:32px!important;
+        font-weight: 700!important;
+        letter-spacing: 3px;
+    }
+    .btn-signup{
+        font-size:28px;
+        padding:15px 0px;
+    }
+    .modal-header-login{
+        padding:25px 0px;
+    }
+    .classical-txt-sigin{
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 991px){
+    .navbar.navbar-light .navbar-toggler {
+        top: -61px!important;
+        right: -16px!important;
+        border-color: #1c75bc!important;
+    }
+    .form-group{
+        margin-bottom: 0px!important;
+    }
+    .btn-user-join{
+        color:white!important;
+        font-size:14px!important;    
+    }
+    .modal-content {
+  
+        width: 95%!important;
+        margin:auto;
+       
+    }
+    .modal-login-txt{
+        font-size:24px;
+    }
+    .modal-login-txt-content{
+        font-size:14px;
+    }
+    .header-icon{
+        color:white!important;
+    }
+    .btn-sign{
+        font-size:20px!important;
+        font-weight: 600!important;
+        letter-spacing: 3px;
+    }
+    .form-link-tag{
+        margin-top:30px;
+    }
+    .modal-footer-link{
+        margin-top:30px;
+    }
+    .header-log{
+        display:block;
+    }
+    .header-nav-cart{
+        display:block;
+        padding-right: 20px;
+    }
+    .header-log-pc{
+        display:none;
+    }
+    .header-search{
+        display:none;
+    }
+    .header-cart-pc{
+        display: none;
+    }
+    .modal-header-login{
+        margin-bottom:20px;
+    }
+    .modal-body{
+        padding:20px 30px!important;
+    }
+    .classical-txt-sigin{
+        margin-top:0px;
+        margin-bottom: 0px;
+    }
+    input{
+        height: 37px!important;
+    }
+}
+
+
+
+

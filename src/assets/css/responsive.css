@@ -2050,8 +2050,7 @@
 
   .slider-01 .slick-slide img,
   .slider-02 .slick-slide img,
-  .slider-03 .slick-slide img {
-    min-height: 200px;
+  .slider-03 .slick-slide img {   
     object-fit: cover;
   }
 
